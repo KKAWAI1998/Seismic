@@ -35,7 +35,7 @@ const char *SAVE_HEX_FILE = "data.txt";
 
 // ======== CHANNEL LIST CONFIGURATION ==========
 const std::vector<uint16_t> channels = {
-    0xd800, 0xd801, 0xd802, 0xd805 // Add or remove channels here
+    0x1000, 0x1001, 0x1002, 0x1003 // Add or remove channels here
 };
 
 uint8_t bcd_encode(int value) { return ((value / 10) << 4) | (value % 10); }
